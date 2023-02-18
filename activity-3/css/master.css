@@ -1,0 +1,50 @@
+html {
+	background-color:aquamarine;
+	background-size: cover;
+
+}
+
+header {
+    font-family: 'Fredoka One', cursive;
+    font-size: calc(14px + 2vw);
+    padding-left: 5%;
+    text-shadow: 3px 3px 0 #000000; 
+}
+
+h1{
+    color: rgb(10, 77, 10);
+}
+
+img{
+    width:45%;
+	padding-left: 5%;
+}
+
+figcaption{
+    font-family: 'Fredoka One', cursive;
+    font-size: calc(12px + .5vw);
+    color: rgb(10, 77, 10);
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: calc(8px + .5vw);
+}
+
+h2{
+    font-family: 'Fredoka One', cursive;
+    font-size: calc(10px + .5vw);
+    color: rgb(79, 17, 121);
+}
+
+h3{
+    font-family: 'Fredoka One', cursive;
+    font-size: calc(9px + .5vw);
+    color: rgb(97, 56, 192);
+}
+
+#Review {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: calc(6px + .3vw);
+}
+
