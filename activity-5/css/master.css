@@ -1,0 +1,27 @@
+html {
+	background-color:rgb(255, 255, 255);
+	background-size: cover;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(coolvetica.otf)
+}
+
+h1{
+    font-family: myFont;
+    font-size: calc(48px + 2vw);
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-family: myFont;
+    font-size: calc(30px + 1.5vw);
+    color: rgb(0, 0, 0);
+    padding: 1%;
+}
+body{
+    font-family: myFont;
+    font-size: calc(15px + 1vw);
+    color: rgb(0, 0, 0);
+    margin: 5%;
+}
