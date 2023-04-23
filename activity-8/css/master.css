@@ -1,0 +1,54 @@
+html {
+    font-family: myFont;
+	background-color:rgb(20, 20, 20);
+	background-size: cover;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(upheaval.ttf)
+}
+
+h1{
+
+    font-size: calc(64px + 1.5vw);
+    color: rgb(86, 255, 255);
+    padding-left: 20%;
+}
+
+h2{
+    font-size: calc(14px + .5vw);
+    color: rgb(173, 192, 62);
+    padding-left: 20%;
+}
+
+#modal-backdrop{
+    display: none;
+    position: absolute; 
+    
+}
+
+#modal-backdrop.visible{
+    display: block;
+    
+
+}
+
+.modal {
+    display: none;
+    position: absolute;
+}
+
+.modal.visible{
+    display: block;
+}
+
+#display-content{
+    color: rgb(114, 114, 114);
+}
+
+footer{
+    color: rgb(192, 162, 62);
+}
+
+
